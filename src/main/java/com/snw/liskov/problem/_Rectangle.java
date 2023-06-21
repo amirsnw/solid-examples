@@ -1,12 +1,12 @@
 package com.snw.liskov.problem;
 
-public class Rectangle {
+public class _Rectangle {
 
 	private int width;
 	
 	private int height;
 
-	public Rectangle(int width, int height) {
+	public _Rectangle(int width, int height) {
 		this.width = width;
 		this.height = height;
 	}
@@ -17,7 +17,7 @@ public class Rectangle {
 
 	public void setWidth(int width) {
 		this.width = width;
-	} // Square should override it (height width be the same)
+	} // Square should override it (height width are the same)
 
 	public int getHeight() {
 		return height;
@@ -25,7 +25,7 @@ public class Rectangle {
 
 	public void setHeight(int height) {
 		this.height = height;
-	} // Square should override it (height width be the same)
+	} // Square should override it (height width are the same)
 	
 	public int computeArea() {
 		return width * height;

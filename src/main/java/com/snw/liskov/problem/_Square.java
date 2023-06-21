@@ -1,8 +1,8 @@
 package com.snw.liskov.problem;
 
-public class Square extends Rectangle {
+public class _Square extends _Rectangle {
 	
-	public Square(int side) {
+	public _Square(int side) {
 		super(side, side); // Calls Rectangle constructor and set height and width the same integer
 	}
 	
